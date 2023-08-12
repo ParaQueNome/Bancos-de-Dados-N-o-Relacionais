@@ -1,0 +1,120 @@
+Introdução à Banco de Dados não Relacionais
+
+
+Relacional X Não Relacional
+
+
+Dados = Valor atribuido a determinado item.
+Ex: Numeros, conceitos, posições;
+
+Podem ser mensurados
+O dado é a base para a informação
+Informação é o conteúdo entendível, capaz de expressar uma função.
+Dado é um elemento bruto sem significado por si só. Pode ser quantitativo ou qualitativo.
+Já a informação é o conjunto de dados agrupados, os quais são tratados, interpretados e analisados com o objetivo de fomentar a construção
+de conhecimento sobre determinado assunto.
+
+Dados Estruturados: 
+	Planilhas;
+	Tabelas;
+
+	Tipo estruturado:
+		padrão pré-definido;
+		estrutura definida rígida;
+		pensada antes mesmo da existência do dado.
+
+	Ex: Banco de dados, organização em linhas e colunas, para não se repetirem.
+	Dados estruturados:
+		Atritubutos atômicos;
+		Ausência de dependências parciais;
+		Ausência de dependências transitivas;
+		Ausência de dependências entre os atributos não chave;
+		Ausência de dependências multivaloradas
+		Ausência de dependências de junção;
+	
+	
+	História:
+		IBM -> 1960/1970:
+			Custo de organização;
+			Indexação Mecânica;
+		
+			Hierárquicos - Relacionais:
+				1970 - > Ted Codd(Sistema R);
+				Álgebra relacional;
+				Sistema R - > SQL;
+		Problemas resolvidos pelos Bancos de Dados relacionais:
+			Redundância e inconsistência de dados;
+			Dificuldade no acesso aos dados;
+			Isolamento dos dados;
+			Anomalias  de acesso concorrente -> Versão antiga e atualiza em cima ( Ponteiro >> Gerenciamento de memória);
+			Problemas de segurança -> Backups para recuperação dos dados. Dados bem guardados, com acesso quando necessário
+			
+	Importância: 
+		20% dos dados do mundo são estruturados;
+		80% -> ? 
+Dados não estruturados:
+	BIG DATA:
+		Volume;
+		Velocidade;
+		Variedade;
+	
+	Amazon -> Investimento em tecnologia. 
+	Google;
+	Instagram;
+	Facebook;
+	Twitter;
+	IoT;
+	Gmail;
+	LinkedIn;
+	Entre outros;
+	
+	Ambiente controlado;
+	Dificil acesso;
+	
+	Flexíveis;
+	Dinâmicos;
+	
+	Editor de texto -> Bloco de Notas ou Word:
+		Quanto texto queremos, sem qualquer preocupação com campos ou limites;
+	Redes sociais:
+		Imagens;
+		Vídeos:
+			Reações;
+			Comentários;
+			Compartilhamentos;
+			Outras interações(Reels, status).
+		
+	Whatsapp:
+		Arquivos;
+		Textos;
+		Reaões;
+			Status;
+		Áudio.
+	IoT:
+		Dispositivos;
+		Sensores;
+		Homekit.
+	
+	Saúde;
+	Rede 5g;
+	Indústria;
+	
+	O que colocar/Como implementar??
+		Extrair o foco do negócio;
+		Documentos;
+		Tem valor? 
+		É verdade? -> Ter informações;
+		Uso da IA.
+	Existem  dados semi-estruturados -> JSON, XML.
+	
+Conclusão: 
+	Dados estruturados -> Rigidez, formalidade;
+	Dados não estruturados -> Dinâmicos.
+	
+	
+		
+	
+		
+			
+
+	
