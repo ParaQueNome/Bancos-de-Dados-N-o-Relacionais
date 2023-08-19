@@ -1,0 +1,28 @@
+Modelo Banco TechWorld:
+
+	Produtos;
+		Id (PK);
+		Nome;
+		Descricao;
+		Preço;
+		Data Cadastro;
+	Categorias:
+		Id(PK);
+		nome;
+		idProduto(FK);
+		
+	Clientes:
+		Id;
+		nome;
+		e-mail;
+		telefone;
+		data de cadastro;
+		
+	Vendas:
+		Id (PK);
+		data de venda;
+		cliente associado (FK - Clientes);
+		IdProdutos (FK - Produtos);
+		qtd;
+		
+		FOREIGN KEY fk_idprodutos REFERENCES idProduto
